@@ -1,0 +1,86 @@
+*{margin: 0;
+    padding: 0;}
+
+
+
+.img1{
+    width: 100%;
+    height: auto;
+   opacity: 70%; 
+   position: absolute;
+   left: 0;
+   z-index: -100;
+}
+
+h1{
+    padding-top: 3rem;
+}
+
+.cont{
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-top: 7rem;
+
+}
+
+.pic{
+    width: 90%;
+    background-color: white;
+    border-radius: 30px 100px 30px 100px ;
+    overflow: hidden;
+    cursor: pointer;
+    margin-top: 3rem;
+}
+
+.img2{
+    width: 100%;
+}
+
+.ayhaga{
+    width: 80%;
+    margin: auto;
+    position: relative;
+}
+
+.nmsa{
+    display: flex;
+    margin : 10rem auto ;
+    width: 80%;
+    height: 30rem;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.abl{
+    position: absolute;
+    border-radius:10px 0 0 10px;
+    width: 20%;
+    height: 100%;
+}
+
+.baed{
+    position: absolute;
+    width: 20%;
+    height: 100%;
+    right: 10%;
+    border-radius:0 10px 10px 0;
+}
+
+.abl:hover,.baed:hover{
+    background-color: rgb(180, 170, 170);
+    opacity: .4;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 700px) {
+    .cont {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .nmsa{
+        height: 20rem;
+    }
+  }

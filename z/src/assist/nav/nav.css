@@ -1,0 +1,133 @@
+#root {
+
+  margin: 0;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.logo{
+    width: 10rem;
+    height: 5rem;
+    margin-top: -10px;
+    cursor: pointer;
+}
+
+
+
+.navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 0  5px 10px 0 gray;
+    background-color: rgb(17, 135, 172);
+    height: 4rem;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.Ul{
+    padding-top: .5rem;
+    display: flex;
+    gap: 2.5rem;
+    margin-top: 10px;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.log {
+    background-color: rgb(28, 177, 223);
+    color: white;
+    margin-top: 10px;
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: .5rem 1.5rem ;
+    font-size: inherit;
+    font-family: inherit;
+    cursor: pointer;
+}
+
+.log:hover{
+    background-color:white ;
+    color: rgb(28, 177, 223);
+}
+a:hover{
+    color: rgb(28, 177, 223);
+}
+
+.gf:hover{
+    color: rgb(28, 177, 223);
+}
+
+.moon{
+    z-index: 2000;
+    box-shadow: 0  5px 10px 0 gray;
+    width: 40%;
+    position: absolute;
+    left: 26%;
+    top: 15%;
+    border: 1px solid gray;
+    border-radius: 20px;
+    padding: 2%;
+    background-color: rgb(255, 255, 255);
+}
+h5{
+    margin-bottom: 20px;
+}
+input{
+    padding: 10px;
+    width: 55%;
+    margin: 10px 0 ;
+    border-radius: 20px;
+    box-shadow: 0  5px 10px 0 gray;
+}
+
+.gf{
+    border-radius: 20px;
+    width: 60%;
+    padding: 10px 0;
+    background-color: white;
+    margin: 10px 0 ;
+    cursor: pointer;
+    box-shadow: 0  5px 10px 0 gray;
+}
+h5{
+    margin-top: 10px;
+}
+
+.fo{
+    font-size: 13px;
+    padding: 20px 0 10px
+}
+
+.s{
+background-color: rgb(17, 135, 172) ;
+font-weight: bold;
+color: white;
+}
+
+.s:hover{
+    background-color:white ;
+    color: rgb(28, 177, 223);
+}
+
+.close{
+    position: absolute;
+    cursor: pointer;
+}
+
+.close:hover{
+    color: rgb(17, 135, 172) ;
+}
+
+@media screen and (max-width: 700px) {
+    .navbar{
+        display:none;
+    }
+}
