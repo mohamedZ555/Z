@@ -12,7 +12,7 @@ function Footer() {
        <li><a href='https://www.facebook.com/clark.maged.9?locale=ar_AR' target='blank'><FaFacebook /> FaceBook</a></li> 
        <li><a href='https://www.instagram.com/dr.clark_maged/' target='blank'><FaInstagram/> Instagram</a></li> 
        <li><a href='https://www.gmail.com/clark.maged.9?locale=ar_AR' target='blank'> <CgMail/> Gmail</a></li> 
-       <li><a href='0' target='blank'> <FaPhoneAlt/> 01002922153</a></li> 
+       <li><spain className="phoneN" href='1' target='blank'> <FaPhoneAlt/> 01002922153</spain></li> 
     </ul>
     </div>
 </>    

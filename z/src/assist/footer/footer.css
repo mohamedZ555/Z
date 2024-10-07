@@ -9,4 +9,8 @@
 }
 
 
+.phoneN:hover{
+    cursor: pointer;
+    color: rgb(28, 177, 223);
+}
 
