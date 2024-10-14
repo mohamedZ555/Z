@@ -6,8 +6,7 @@ import { FaPhoneAlt } from "react-icons/fa";
 
 function Footer() {
    return (
-<>git status
-
+<>
     <div className='foot'>
     <ul className="frut">
        <li><a href='https://www.facebook.com/clark.maged.9?locale=ar_AR' target='blank'><FaFacebook /> FaceBook</a></li> 
