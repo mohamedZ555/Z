@@ -1,8 +1,10 @@
 import { useState } from 'react';
 import './Login.css';
 
+
+
 function Login() {
-    const [values, setValue] = useState({
+    const [values, setValues] = useState({
         FirstName: "",
         LastName: "",
         PhoneNumber: "",
@@ -15,13 +17,13 @@ function Login() {
 
     const handleChange = (e) => {
         const { name, value } = e.target;
-        setValue((prev) => ({ ...prev, [name]: value }));
+        setValues((prev) => ({ ...prev, [name]: value }));
     };
 
     const onSubmit = (e) => {
         e.preventDefault();
         setTasks((prev) => [...prev, values]); 
-        setValue({ 
+        setValues({ 
             FirstName: "",
             LastName: "",
             PhoneNumber: "",
@@ -55,7 +57,7 @@ function Login() {
                 <label htmlFor='Birthday'>Birthday</label>
                 <input type='date' name='Birthday' value={values.Birthday} onChange={handleChange} />
 
-                <button type='button' onClick={() => setValue({ ...values, FirstName: "", LastName: "", PhoneNumber: "", Email: "", Gender: "", Birthday: "" })}>
+                <button type='button' onClick={() => setValues({ ...values, FirstName: "", LastName: "", PhoneNumber: "", Email: "", Gender: "", Birthday: "" })}>
                     Reset
                 </button>
                 <button type='submit'>Submit</button>
